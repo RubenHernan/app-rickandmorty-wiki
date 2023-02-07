@@ -9,6 +9,7 @@
 }
 
 .pagination__previus, .pagination__next{
+    cursor: pointer;
     position: absolute;
     color: var(--color-text);
     font-weight: bold;
@@ -39,6 +40,7 @@
 }
 
 .pagination__item{
+    cursor: pointer;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -61,6 +63,7 @@
 }
 
 .pagination__link{
+    cursor: pointer;
     background-color: transparent;
     color: var(--color-text);
     font-weight: bold;
