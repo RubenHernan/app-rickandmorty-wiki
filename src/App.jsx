@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className="App" onClick={handleBlur}>
-      <div className='header'>
+      <div className='header' style={{backgroundImage: "url(./banner.jpg)"}}>
       </div>
       <form onSubmit={handleSubmit} className="form">
         <h2 className='header__title'>Rick and Morty Wiki</h2>
