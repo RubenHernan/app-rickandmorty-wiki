@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@200&display=swap');
+:root{
+  --body-color: #05292E;
+  --card-color:#062226;
+  --input-color: #094149;
+  --color-title: #7E7E7E;
+  --color-text: #FBFBFB;
+  --color-red: #B94343;
+  --color-green: #4AB648;
+  --color-grey: #938686;
+  --color-selected: #318a6b;
+  --btn-disabled: #9b9b9b;
+  --z-index-input: 3000;
+}
+
+
+/* --- RESET --- */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: var(--body-color);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  h1, h2, h3, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  input {
+    outline: none;
+  }
+  button {
+    font-family: inherit;
+    border: none;
+  }
